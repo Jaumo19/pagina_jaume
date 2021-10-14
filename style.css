@@ -1,0 +1,148 @@
+header{
+    background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
+    position: absolute;
+    width: 100%;
+    height: 344px;
+    left: 0px;
+    top: 0px;
+}
+.facebook{
+    content: url('assets/img/facebook.svg');
+}
+.twitter{
+    content: url('assets/img/twitter.svg');
+}
+.instagram{
+    content: url('assets/img/instagram-1.svg');
+}
+.youtube{
+    content: url('assets/img/youtube.svg');
+}
+li{
+    padding-right: 10px;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.redes_sociales{
+    background: #323232;
+    mix-blend-mode: overlay;
+    opacity: 0.15;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.logo{
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 255px;
+    top: 146px;
+}
+.texto-logo{
+    position: absolute;
+    width: 180px;
+    height: 58px;
+    left: 574px;
+    top: 128px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.8889px;
+    line-height: 110%;
+    /* or 19px */
+
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss02' on;
+
+    color: #FFFFFF;
+}
+.background1{
+    position: absolute;
+    width: 1181px;
+    height: 260px;
+    left: 550px;
+    top: 78px;
+    mix-blend-mode: overlay;
+    opacity: 0.25;
+}
+.menus{
+    color: white;
+    position: absolute;
+    height: 27px;
+    top: 299px;
+    margin-left: 19%;
+    padding-right: 100px;
+}
+.menus li{
+    padding-right: 100px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 505px;
+    left: 0px;
+    top: 1548px;
+    color: #FFFFFF;
+    /* Primary */
+
+    background: #F3526B;
+}
+.europe_logo{
+    position: absolute;
+    left: 15%;
+    right: 1.9%;
+    top: 34%;
+    bottom: 2.85%;
+
+    background: #164194;
+}
+footer p{
+    letter-spacing: -0.02em;
+}
+.european_text{
+    position: absolute;
+    width: 383px;
+    height: 72px;
+    left: 20%;
+    top:160px;
+    font-size: 16px;
+    line-height: 150%;
+}
+.european_text2{
+    position: absolute;
+    width: 528px;
+    height: 84px;
+    left: 15%;
+    top: 250px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+}
+.links_footer{
+    position: absolute;
+    width: 669px;
+    height: 24px;
+    left: 14%;
+    top: 340px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-decoration-line: underline;
+}
+ul li a{
+    color: white;
+}
