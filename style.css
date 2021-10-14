@@ -6,12 +6,6 @@ header{
     left: 0px;
     top: 0px;
 }
-.facebook{
-    content: url('assets/img/facebook.svg');
-}
-.twitter{
-    content: url('assets/img/twitter.svg');
-}
 .instagram{
     content: url('assets/img/instagram-1.svg');
 }
