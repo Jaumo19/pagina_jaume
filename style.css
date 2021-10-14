@@ -1,10 +1,14 @@
 header{
     background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 344px;
     left: 0px;
     top: 0px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 .instagram{
     content: url('assets/img/instagram-1.svg');
@@ -18,32 +22,30 @@ li{
     padding-left: 25px;
 }
 
-.redes_sociales{
-    background: #323232;
-    mix-blend-mode: overlay;
-    opacity: 0.15;
-}
-
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
-.logo{
-    position: absolute;
-    width: 300px;
+.cabecera{
+    position: relative;
     height: 52px;
-    left: 255px;
-    top: 146px;
+    padding-left: 25%;
+    top: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 0%;
+
+}
+.logo{
+
+    position: relative;
 }
 .texto-logo{
-    position: absolute;
-    width: 180px;
-    height: 58px;
-    left: 574px;
-    top: 128px;
-
+    text-align: justify;
+    margin-bottom: 100px;
+    vertical-align: top;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -56,28 +58,19 @@ ul{
 
     color: #FFFFFF;
 }
-.background1{
-    position: absolute;
-    width: 1181px;
-    height: 260px;
-    left: 550px;
-    top: 78px;
-    mix-blend-mode: overlay;
-    opacity: 0.25;
-}
 .menus{
     color: white;
     position: absolute;
-    height: 27px;
     top: 299px;
-    margin-left: 19%;
-    padding-right: 100px;
+    margin-left: 23.5%;
+    padding-right: 50px;
 }
 .menus li{
-    padding-right: 100px;
+    padding-right: 50px;
 }
 footer{
-    position: absolute;
+    margin: 0px;
+    position: relative;
     width: 100%;
     height: 505px;
     left: 0px;
@@ -88,7 +81,7 @@ footer{
     background: #F3526B;
 }
 .europe_logo{
-    position: absolute;
+    position: relative;
     left: 15%;
     right: 1.9%;
     top: 34%;
@@ -100,7 +93,7 @@ footer p{
     letter-spacing: -0.02em;
 }
 .european_text{
-    position: absolute;
+    position: relative;
     width: 383px;
     height: 72px;
     left: 20%;
@@ -109,7 +102,7 @@ footer p{
     line-height: 150%;
 }
 .european_text2{
-    position: absolute;
+    position: relative;
     width: 528px;
     height: 84px;
     left: 15%;
@@ -123,7 +116,7 @@ footer p{
     /* or 21px */
 }
 .links_footer{
-    position: absolute;
+    position: relative;
     width: 669px;
     height: 24px;
     left: 14%;
@@ -139,4 +132,19 @@ footer p{
 }
 ul li a{
     color: white;
+}
+.novedades{
+    color: white;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 6%;
+    background-color: #F3526B;
+    margin-right: 25%;
+}
+.texto_novedad{
+    padding-left: 30px;
+}
+.texto_novedad2{
+    font-size: 28px;
+    font-weight: bold;
 }
