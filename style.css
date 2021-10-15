@@ -10,7 +10,14 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
-
+img{
+    max-width: 100%;
+}
+section img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 .instagram{
     content: url('assets/img/instagram-1.svg');
 }
@@ -32,11 +39,16 @@ ul{
 .cabecera{
     position: relative;
     height: 52px;
-    padding-left: 25%;
     top: 80px;
     padding-bottom: 25px;
     padding-top: 25px;
-    margin-left: 0%;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: revert;
+    justify-content: unset;
+    align-items: inherit;
 
 }
 .logo{
@@ -53,6 +65,7 @@ ul{
     font-weight: normal;
     font-size: 16.8889px;
     line-height: 110%;
+    max-width: 200px;
     /* or 19px */
 
     letter-spacing: -0.02em;
@@ -63,18 +76,17 @@ ul{
 
 figure{
     margin: 0;
+    flex-basis: 57%;
 }
 ul li a{
     color: white;
 }
 section{
-    margin-left: 24.5%;
+    margin: 0 auto;
     max-width: 930px;
     width: 100%;
-    max-height: 350px;
 }
 .novedades{
-    width: 57%;
     color: white;
     display: flex;
     margin-top: 6%;
@@ -82,7 +94,7 @@ section{
 
 .textos_foto{
     padding: 13px;
-    width:43%;
+    flex-basis: 43%;
     background-color: #F3526B;
 }
 .texto_novedad2{
@@ -90,15 +102,22 @@ section{
     font-size: 28px;
     font-weight: bold;
 }
-
+section.informacion{
+    padding-top: 110px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .informacion h1{
-    width: 70%;
-    margin-top: 110px;
+    float: left;
     font-size: 49px;
     color: #F3526B;
+    display: inline-block;
 }
 .informacion p{
     width: 30%;
+    display: inline-block;
  }
 h3{
     font-size: 25px;
