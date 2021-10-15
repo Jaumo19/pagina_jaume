@@ -10,11 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
-section img{
-    max-width: 930px;
-    width: 100%;
-    height: auto;
-}
+
 .instagram{
     content: url('assets/img/instagram-1.svg');
 }
@@ -75,6 +71,7 @@ section{
     margin-left: 24.5%;
     max-width: 930px;
     width: 100%;
+    max-height: 350px;
 }
 .novedades{
     width: 57%;
@@ -84,7 +81,7 @@ section{
 }
 
 .textos_foto{
-    padding: 15px;
+    padding: 13px;
     width:43%;
     background-color: #F3526B;
 }
@@ -93,6 +90,7 @@ section{
     font-size: 28px;
     font-weight: bold;
 }
+
 .informacion h1{
     width: 70%;
     margin-top: 110px;
