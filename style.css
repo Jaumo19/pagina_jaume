@@ -56,9 +56,10 @@ ul{
     position: relative;
 }
 .texto-logo{
+    margin-top: 0px;
+    padding-left: 10px;
     display: flex;
     text-align: justify;
-    margin-bottom: 100px;
     vertical-align: top;
     font-family: Inter;
     font-style: normal;
@@ -103,21 +104,18 @@ section{
     font-weight: bold;
 }
 section.informacion{
-    padding-top: 110px;
-    padding-bottom: 300px;
+    padding-top: 130px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .informacion h1{
-    float: left;
     font-size: 49px;
     color: #F3526B;
-    display: inline-block;
 }
 .informacion p{
-    width: 30%;
-    display: inline-block;
+    padding-top: 45px;
+    width: 80%;
  }
 h3{
     font-size: 25px;
@@ -166,3 +164,71 @@ h3{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:transparent;}
+.bloques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.bloque{
+    width: 290px;
+}
+.know_more{
+    border-radius: 50px;
+    color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-left: 45%;
+    font-size: 20px;
+    background-color:  #F3526B;
+    background-size: 10%;
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+footer{
+    color: white;
+    background: #F3526B;
+    position: relative;
+    width: 100%;
+    height: 344px;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 50px;
+}
+.texto_footer{
+    position: relative;
+    height: 60px;
+    top: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    flex-direction: revert;
+    justify-content: unset;
+    align-items: inherit;
+}
+.columna_izquierda1{
+    width: 60%;
+    max-width: 558px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.columna_izquierda2{
+    width: 60%;
+}
+.columna_izquierda2 a{
+    padding-right: 10px;
+}
+.columna_izquierda1 p{
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.columna_derecha1{
+    max-width: 340;
+    width: 30%;
+    float: right;
+}
