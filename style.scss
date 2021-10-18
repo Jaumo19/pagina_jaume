@@ -1,0 +1,318 @@
+header {
+    background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 140px;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .instagram {
+    content: url('assets/img/instagram-1.svg');
+  }
+  
+  .youtube {
+    content: url('assets/img/youtube.svg');
+  }
+  
+  li {
+    padding-right: 10px;
+    padding: 10px;
+    padding-left: 25px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  .cabecera {
+    position: relative;
+    height: 52px;
+    top: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: revert;
+    justify-content: unset;
+    align-items: inherit;
+  }
+  
+  .logo {
+    position: relative;
+  }
+  
+  .texto-logo {
+    margin-top: 0px;
+    padding-left: 10px;
+    display: flex;
+    text-align: justify;
+    vertical-align: top;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.8889px;
+    line-height: 110%;
+    max-width: 200px;
+  
+    /* or 19px */
+  
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss02' on;
+    color: #FFFFFF;
+  }
+  
+  figure {
+    margin: 0;
+    flex-basis: 57%;
+  }
+  
+  ul li a {
+    color: white;
+  }
+  
+  section {
+    margin: 0 auto;
+    max-width: 930px;
+    width: 100%;
+  }
+  
+  .novedades {
+    color: white;
+    display: flex;
+    margin-top: 6%;
+  }
+  
+  .textos_foto {
+    padding: 13px;
+    flex-basis: 43%;
+    background-color: #F3526B;
+  }
+  
+  .texto_novedad2 {
+    padding-right: 30px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  section.informacion {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .informacion {
+    h1 {
+      font-size: 49px;
+      color: #F3526B;
+    }
+  
+    p {
+      padding-top: 45px;
+      width: 80%;
+    }
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  /* Dropdown Button */
+  
+  .dropbtn {
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  
+  .dropdown {
+    top: 145px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowns {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  
+  .dropdown-content {
+    padding: 0px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  
+    a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  
+      &:hover {
+        background-color: #F3526B;
+        color: white;
+      }
+    }
+  }
+  
+  /* Links inside the dropdown */
+  
+  /* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu on hover */
+  
+  .dropdown:hover {
+    .dropdown-content {
+      display: block;
+    }
+  
+    .dropbtn {
+      background-color: transparent;
+    }
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  .bloques {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+  
+  .bloque {
+    width: 290px;
+  }
+  
+  .know_more {
+    border-radius: 50px;
+    color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-left: 45%;
+    font-size: 20px;
+    background-color: #F3526B;
+    background-size: 10%;
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 100px;
+  }
+  
+  footer {
+    color: white;
+    background: #F3526B;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 50px;
+    padding-bottom: 200px;
+  }
+  
+  .texto_footer {
+    position: relative;
+    top: 80px;
+    padding-top: 25px;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    flex-direction: revert;
+    justify-content: unset;
+    align-items: inherit;
+  }
+  
+  .columna_izquierda1 {
+    width: 60%;
+    max-width: 558px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .columna_izquierda2 {
+    width: 60%;
+  
+    a {
+      padding-right: 10px;
+    }
+  }
+  
+  .columna_izquierda1 p {
+    padding-left: 20px;
+    margin-top: 0px;
+  }
+  
+  .columna_derecha1 {
+    max-width: 340;
+    width: 30%;
+    float: right;
+  }
+  
+  .texto_footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    max-width: 930px;
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  div.bandera {
+    grid-column: 1 / 8;
+  }
+  
+  .texto_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    p {
+      padding-left: 10px;
+    }
+  }
+  
+  div.logo {
+    grid-column: 10 / 13;
+  
+    li:first-child {
+      padding-left: 0px;
+    }
+  }
+  
+  .footer_links a {
+    padding-right: 15px;
+  }
