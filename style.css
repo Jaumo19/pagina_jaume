@@ -2,8 +2,6 @@ header{
     background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
     position: relative;
     width: 100%;
-    left: 0px;
-    top: 0px;
     padding-bottom: 140px;
 }
 body{
@@ -39,7 +37,6 @@ ul{
 .cabecera{
     position: relative;
     height: 52px;
-    top: 80px;
     padding-bottom: 25px;
     padding-top: 25px;
     width: 100%;
