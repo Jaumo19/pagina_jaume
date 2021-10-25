@@ -1,0 +1,15 @@
+@import "01-tools.scss";
+/*
+
+Designed pieces of UI.
+Still only using classes.
+More explicitly named
+(e.g. .products-list {}).
+
+*/
+
+h1{
+  @media #{$mobile} {
+    font-size: 22px;
+  }
+}

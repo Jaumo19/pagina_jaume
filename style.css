@@ -2,7 +2,6 @@ header{
     background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
     position: relative;
     width: 100%;
-    padding-bottom: 140px;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -22,12 +21,9 @@ section img{
 .youtube{
     content: url('assets/img/youtube.svg');
 }
-li{
-    padding-right: 10px;
+ul.redes_sociales{
     padding: 10px;
-    padding-left: 25px;
 }
-
 ul{
     margin: 0;
     padding: 0;
@@ -35,17 +31,12 @@ ul{
     display: flex;
 }
 .cabecera{
+    padding-bottom: 100px;
+    padding-top: 50px;
     position: relative;
-    height: 52px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    width: 100%;
     max-width: 930px;
     margin: 0 auto;
     display: flex;
-    flex-direction: revert;
-    justify-content: unset;
-    align-items: inherit;
 
 }
 .logo{
@@ -57,18 +48,11 @@ ul{
     padding-left: 10px;
     display: flex;
     text-align: justify;
-    vertical-align: top;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16.8889px;
     line-height: 110%;
     max-width: 200px;
     /* or 19px */
-
     letter-spacing: -0.02em;
-    font-feature-settings: 'ss02' on;
-
     color: #FFFFFF;
 }
 
@@ -88,6 +72,7 @@ section{
     color: white;
     display: flex;
     margin-top: 6%;
+    flex-direction: row;
 }
 
 .textos_foto{
@@ -128,14 +113,15 @@ h3{
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    top: 145px;
     font-family: 'Inter', sans-serif;
     position: relative;
     display: inline-block;
+    padding-right: 10px;
+    padding: 10px;
 }
 .dropdowns{
     width: 100%;
-    max-width: 930px;
+    max-width: 950px;
     margin: 0 auto;
 }
 /* Dropdown Content (Hidden by Default) */

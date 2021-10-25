@@ -1,0 +1,22 @@
+@import "01-tools.scss";
+
+/*
+
+OOCSS.
+Design patterns.
+No cosmetics.
+Begin using classes
+exclusively.
+Agnostically named (e.g. .uilist {}).
+
+
+*/
+
+
+
+.site-inner {
+    clear: both;
+    margin: 120px auto;
+    padding: 0px 30px 0;
+    max-width: $amplada;
+}

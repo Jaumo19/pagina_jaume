@@ -1,0 +1,30 @@
+@import "01-tools.scss";
+/*
+
+Unclassed HTML elements.
+H1–H6, basic links, lists, etc.
+Last layer we see type
+selectors (e.g. a {},
+blockquote {})
+
+
+*/
+
+body{
+    font-family: "novela";
+}
+
+
+h1 {font-size:2em;}
+
+h2 {font-size:1.8em}
+
+h3 {font-size:1.6em}
+
+h4 {font-size:1.4em}
+
+h5{font-size: 1.2em;}
+
+p{font-size: 1em;}
+
+svg path{fill:black}

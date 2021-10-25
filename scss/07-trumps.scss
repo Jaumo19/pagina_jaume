@@ -1,0 +1,17 @@
+@import "01-tools.scss";
+
+
+/*
+
+Overrides, helpers, utilities.
+Only affect one piece of the
+DOM at a time.
+Usually carry !important.
+
+*/
+
+h1{
+  @media #{$mobile} {
+    font-size: 22px;
+  }
+}
