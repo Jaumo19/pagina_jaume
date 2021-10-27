@@ -52,11 +52,15 @@ body{
 }
 
 
-
 header{
     background: linear-gradient(90deg, #F3526B 0%, #F5D357 100%);
     position: relative;
-    width: 100%;
+    .redes_sociales{
+        li{
+            display: flex;
+            margin: 10px;
+        }
+    }
     .cabecera{
         padding-bottom: 100px;
         padding-top: 50px;
@@ -64,14 +68,37 @@ header{
         max-width: 930px;
         margin: 0 auto;
         display: flex;
+        @media #{$mobile} {
+            height: auto;
+            display: block;
+            margin-left: 20px;
+        }
         .logo{
+            @media #{$mobile} {
+                margin-top: 70px;
+                width: 100%;
+                max-width: 175px;
+                height: 30px;
+                
+            
+            }
             position: relative;
         }
         .texto-logo{
+            @media #{$mobile} {
+                width: 130px;
+                font-size: 10px;
+                margin-top: 10px;
+                text-align: left;
+                padding: 0px;
+                position: absolute;
+                
+             
+            }
             margin-top: 0px;
             padding-left: 10px;
             display: flex;
-            text-align: justify;
+            text-align: left;
             font-size: 16.8889px;
             line-height: 110%;
             max-width: 200px;
@@ -80,6 +107,13 @@ header{
 
             letter-spacing: -0.02em;
             color: #FFFFFF;
+        }
+        div.imgMenu{
+            display: none;
+            @media #{$mobile} {
+                display: inline-block;
+                margin-left: 150px;
+            }
         }
         @media #{$mobile} {
             max-width: 430px;
@@ -193,6 +227,9 @@ header{
         width: 100%;
         max-width: 950px;
         margin: 0 auto;
+        @media #{$mobile} {
+            display: none;
+        }
     }
     /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
@@ -226,6 +263,9 @@ header{
         }
       }
     .know_more{
+        @media #{$mobile} {
+            margin-left: 35%;
+        }
         border-radius: 50px;
         color: white;
         margin: auto;
@@ -284,8 +324,12 @@ header{
             }
             div.logo{
                 grid-column: 10 / 13;
-                li:first-child{
-                    padding-left: 0px;
+                .redes_sociales{
+                    display: flex;
+                    li{
+                        display: flex;
+                        margin: 10px;
+                    }
                 }
             }
         }   
