@@ -1,6 +1,5 @@
-function accionMenu(){
-    alert("hola");
-    var element = document.getElementById("imgMenu");
-    element.classList.toggle("mystyle");
-    
-}
+$( document ).ready(function() {
+    $( ".imgMenu img" ).click(function() {
+        $( ".dropdowns").toggle("");
+    });
+});

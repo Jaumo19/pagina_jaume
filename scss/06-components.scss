@@ -232,6 +232,13 @@ header{
         margin: 0 auto;
         @media #{$mobile} {
             display: none;
+            .mystyle{
+                width: 100%;
+                padding: 25px;
+                background-color: coral;
+                color: white;
+                font-size: 25px;
+            }
         }
     }
     /* Dropdown Content (Hidden by Default) */
