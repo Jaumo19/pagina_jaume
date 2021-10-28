@@ -1,3 +1,6 @@
 function accionMenu(){
-    alert("Le has dado");
+    alert("hola");
+    var element = document.getElementById("imgMenu");
+    element.classList.toggle("mystyle");
+    
 }
